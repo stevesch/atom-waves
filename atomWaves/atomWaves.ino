@@ -3,6 +3,16 @@
 
 #include "PixelGrid.h"
 
+///////////////////////////////////////
+
+// To get up-and-running for M5Atom on Arduino:
+// - Set board to "ESP32 Pico Kit"
+// - Install "M5Atom" and "FaseLED" libraries
+// - Select serial port connected to your board
+// - Set upload speed to 115200
+
+///////////////////////////////////////
+
 // #include <numbers>
 // constexpr float kPi = std::numbers::pi;
 #define _USE_MATH_DEFINES
@@ -58,7 +68,8 @@ void loop()
     tLastFrameUpdate = tNow;
     updateFrame(dt);
   }
-  else {
+  else
+  {
     // yield a bit of time to the system (we don't need to update the display
     // every millisecond, but we like to poll our buttons frequently for
     // responsive input, so we loop frequently, but we yield/delay so we
@@ -104,7 +115,7 @@ struct TravelingWave
   float vy;
 };
 
-void setAngleOfTravel(struct TravelingWave& wave, float angle)
+void setAngleOfTravel(struct TravelingWave &wave, float angle)
 {
   // This occurs outside of the main pixel loop, so
   // it is not a huge speed hit, but a slight speedup
@@ -176,6 +187,7 @@ void updateFrame(float dt)
 
   // The grid "evaluator" evalGrid is called for each pixel, with x and y
   // normalized to a range ot [-1.0, +1.0] for the entire screen.
+  // (bottom-left is <-1.0, -1.0>, and top-right is <+1.0, +1.0>)
   // The return value from the evaluator is the color for the pixel at
   // point <x, y>.
 
