@@ -6,6 +6,8 @@ Each wave moves independently and has independent parameters for wavelength and 
 
 Wave velocities are also continuously rotated over time, adding to a more chaotic yet fluid movement.
 
+![Waves Animation](docs/m5-atom-waves-anim.gif)
+
 # Building and Running
 
 To get up-and-running for M5Atom on Arduino:
