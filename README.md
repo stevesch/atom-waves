@@ -1,6 +1,6 @@
 # Atom Waves
 
-Displays a 2D traveling sine wave in each color.
+Displays a 2D traveling sine wave in each color channel of the 5x5 LED display of an [M5 ATOM ESP32 microcontroller](https://m5stack.com/collections/m5-atom).
 
 Each wave moves independently and has independent parameters for wavelength and velocity.
 
