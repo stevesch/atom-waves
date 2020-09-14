@@ -19,5 +19,5 @@ To get up-and-running for M5 ATOM on Arduino:
 - Set upload speed to 115200
 
 Platform.io users:
-- Install "M5Atom" and "FastLED" libraries
-- Choose "build and upload" from the tasks (all configuration is already be set in platformio.ini)
+- Choose "build and upload" from the tasks.
+(All configuration is already be set in platformio.ini.  "M5Atom" and "FastLED" libraries are still required but should be automatically installed according to workspace settings)
