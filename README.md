@@ -20,4 +20,5 @@ To get up-and-running for M5 ATOM on Arduino:
 
 Platform.io users:
 - Choose "build and upload" from the tasks.
-(All configuration is already be set in platformio.ini.  "M5Atom" and "FastLED" libraries are still required but should be automatically installed according to workspace settings)
+
+(All configuration is already set in platformio.ini.  "M5Atom" and "FastLED" libraries are still required but should be automatically installed according to workspace settings)
