@@ -4,7 +4,7 @@ Displays a 2D traveling sine wave in each color channel of the 5x5 LED display o
 
 Each wave moves independently and has independent parameters for wavelength and velocity.
 
-Wave velocities are also continuously rotated over time, adding to a more chaotic yet fluid movement:
+Wave velocities are also continuously rotated over time, creating more chaotic (yet still fluid) movement:
 
 ![Waves Animation](docs/m5-atom-waves-anim.gif)
 
