@@ -10,7 +10,7 @@ Wave velocities are also continuously rotated over time, adding to a more chaoti
 
 To get up-and-running for M5Atom on Arduino:
 - Set board to "ESP32 Pico Kit"
-- Install "M5Atom" and "FaseLED" libraries
+- Install "M5Atom" and "FastLED" libraries
 - Select serial port connected to your board
 - Set upload speed to 115200
 
